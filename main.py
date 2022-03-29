@@ -22,7 +22,7 @@ if __name__ == '__main__':
     print('This Script convert API for petroleum to Density .. ')
     print('Coded By Eng Yazeed')
     
-    api = int(input(' Your API .. : '))
+    api = float(input(' Your API .. : '))
     density = api_denisty(api)
     print(density)
     
