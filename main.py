@@ -4,8 +4,8 @@
         
 def api_denisty(api):
         
-    x = (141.5 / ( api + 131.5))
-    API_gravity = ((141.5/x) - 131.5)
+    sg = (141.5 / api) + 131.5
+    API_gravity = (141.5 / sg) - 131.5
     if API_gravity >= 35:
         return "Specific gravity for  {} and it's Light crude Oil".format(api)
     if API_gravity >= 45:
