@@ -20,31 +20,31 @@ def run():
     API = float(input("Enter API: "))
     if API >= 35:
         print(
-            "The specific gravity is {} ans it's Light crude Oil".format(
+            "The specific gravity is {} and it's Light crude Oil".format(
                 abs(int(specific_gravity(API)))
             )
         )
     elif API >= 45:
         print(
-            "The specific gravity is {} ans it's Medium crude Oil".format(
+            "The specific gravity is {} and it's Medium crude Oil".format(
                 abs(int(specific_gravity(API)))
             )
         )
     elif API <= 35:
         print(
-            "The specific gravity is {} ans it's Heavy crude Oil".format(
+            "The specific gravity is {} and it's Heavy crude Oil".format(
                 abs(int(specific_gravity(API)))
             )
         )
     elif API <= 25:
         print(
-            "The specific gravity is {} ans it's Very Heavy crude Oil".format(
+            "The specific gravity is {} and it's Very Heavy crude Oil".format(
                 abs(int(specific_gravity(API)))
             )
         )
     elif API < 15:
         print(
-            "The specific gravity is {} ans it's Extremely Heavy crude Oil".format(
+            "The specific gravity is {} and it's Extremely Heavy crude Oil".format(
                 abs(int(specific_gravity(API)))
             )
         )
